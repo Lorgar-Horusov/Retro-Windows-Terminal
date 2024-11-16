@@ -2,11 +2,14 @@
 # CRT Shader Effect for Windows Terminal
 
 This shader simulates a CRT (Cathode Ray Tube) screen effect by applying several post-processing techniques, including scanlines, lens distortion, chromatic aberration, noise, and blur. It creates a retro, analog display effect often associated with older television and computer screens.
+<img src="images/crt_terminal.gif" alt="CRT Shader" width="1280" height="720">
 
 ## Features
 
 - **Lens Distortion**: Adds a curved distortion effect to simulate a CRT screen's lens.
 - **Noise**: Adds a random noise effect for a more retro feel.
+<img src="images/noise.gif" alt="CRT Shader noice" width="640" height="360">
+
 - **Chromatic Aberration**: Shifts the RGB color channels slightly to simulate color fringing.
 - **Scanlines**: Adds horizontal scanlines to replicate the appearance of old CRT monitors.
 - **Blur**: Applies a blur effect to give a softer, vintage look.
