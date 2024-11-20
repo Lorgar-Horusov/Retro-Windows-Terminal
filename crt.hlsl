@@ -156,7 +156,7 @@ float4 main(float4 pos : SV_POSITION, float2 tex : TEXCOORD) : SV_TARGET
             float2 distortedTex = ApplyDistortion(tex);
             
             color = shaderTexture.Sample(samplerState, distortedTex);
-            color.a = 1.0;
+            color.a = 0.0;
         }
     }
 
